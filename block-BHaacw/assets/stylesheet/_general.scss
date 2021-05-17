@@ -1,0 +1,22 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1620px;
+    width: 100%;
+    // border: 1px solid red;
+    margin: auto;
+}
+.flex{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    font-size: 16px;
+}
